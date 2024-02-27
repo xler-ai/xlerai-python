@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "xlerai"
+version = "1.12.0"
+description = "The official Python library for the xler.ai API"
+readme = "README.md"
+license = "Apache-2.0"
+authors = [
+ "XlerAI",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7.1"
+openai = "1.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
